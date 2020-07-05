@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 320px;
+    height: 480px;
+    margin: 50px auto;
+    background: url("../img/game_bg.jpg") no-repeat;
+    position: relative;
+}
+.container h2{
+    font-size: 30px;
+    color: white;
+    padding-left: 68px;
+    padding-top: 4px;
+}
+.container .time{
+    width: 180px;
+    height: 16px;
+    background: url("../img/progress.png") no-repeat;
+    position: absolute;
+    left:63px;
+    top:66px;
+}
+.container button{
+    font-size: 20px;
+    color: white;
+    background-color: #CF2117;
+    text-align: center;
+    line-height: 20px;
+    width: 106px;
+    height: 34px;
+    position: absolute;
+    left: 107px;
+    bottom: 128px;
+    border:none;
+    outline: none;
+    border-radius: 20px;
+}
+.container .rule{
+    background-color: #ccc;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    width: 320px;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+}
+.container .rules{
+    padding-top: 102px;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 45px;
+    box-sizing: border-box;
+    display: none;
+}
+.rules p{
+    color: white;
+}
+.rules a{
+    text-decoration: none;
+    border: 1px solid red;
+    color: red;
+}
+.container .over{
+    padding-top: 206px;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+    line-height: 45px;
+    box-sizing: border-box;
+    display:none;
+}
+.over h1{
+    font-size: 50px;
+    color: red;
+    text-shadow: 2px 2px white;
+}
+.over button{
+    background-color: #3190D5;
+}
